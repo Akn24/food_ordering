@@ -5,12 +5,15 @@ import 'package:foodordering/screens/details/components/order.dart';
 import 'package:foodordering/screens/details/components/titlepagerating.dart';
 
 class Body extends StatelessWidget {
+  final String imgs;
+
+  const Body({Key key, this.imgs}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
         ItemImage(
-          imgSrc: "assets/images/burger.png",
+          imgSrc: imgs,
         ),
         Expanded(
             child: ItemInfo(),
