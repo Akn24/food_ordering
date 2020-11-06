@@ -14,7 +14,7 @@ class CategoryList extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           CategoryItem(
-            title: "Combo Meal",
+            title: "Biriyani",
             isActive: true,
             press: (){},
           ),

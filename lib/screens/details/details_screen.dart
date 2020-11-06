@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:foodordering/constants.dart';
 import 'package:foodordering/screens/details/components/app_bar.dart';

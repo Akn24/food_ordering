@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:foodordering/screens/feedback/feedback.dart';
+import 'package:foodordering/screens/home/home-screen.dart';
 
 class BottomNav extends StatelessWidget {
   const BottomNav({
@@ -32,7 +34,16 @@ class BottomNav extends StatelessWidget {
           IconButton(
             icon: SvgPicture.asset(
               "assets/icons/home.svg"),
-            onPressed: (){},
+            onPressed: (){
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context){
+                    return HomeScreen();
+                  },
+                ),
+              );
+            },
           ),
           IconButton(
             icon: SvgPicture.asset(
@@ -47,7 +58,16 @@ class BottomNav extends StatelessWidget {
           IconButton(
             icon: SvgPicture.asset(
               "assets/icons/person.svg"),
-            onPressed: (){},
+            onPressed: (){
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context){
+                    return UI22();
+                  },
+                ),
+              );
+            },
           ),
         ],
       ),

@@ -14,14 +14,14 @@ class ItemList extends StatelessWidget {
       child: Row(
         children: <Widget>[
           ItemCard(
-            svgSrc: "assets/icons/burger_beer.svg",
-            title: "Burger & Beer",
+            svgSrc: "assets/icons/biriyani.svg",
+            title: "Chicken Biriyani",
             press: (){
               Navigator.push(context, MaterialPageRoute(builder: (context){return DetailsScreen(
-                location: "McDonalds",
-                foodname: "Cheese Burger",
-                img: "assets/images/burger.png",
-                cont: "Nowadays, making printed materials have become fast, easy and simple. If you want your promotional material to be an eye-catching object, you should make it colored. By way of using inkjet printer this is not hard to make. An inkjet printer is any printer that places extremely small droplets of ink onto paper to create an image.",
+                location: "Ambattur O.T",
+                foodname: "Chicken Biriyani",
+                img: "assets/images/IMG_4916.JPG",
+                cont: "Nowadays, making printed materials have become fast, easy and simple. If you want your promotional material to be an eye-catching object, you should make it colored. By way of using inkjet printer this is not hard to make.",
                 );
               },
               ),
@@ -29,24 +29,30 @@ class ItemList extends StatelessWidget {
             },
           ),
           ItemCard(
-            svgSrc: "assets/icons/chinese_noodles.svg",
-            title: "Chinese Noodles",
+            svgSrc: "assets/icons/biriyani.svg",
+            title: "Mutton Biriyani",
             press: (){
               Navigator.push(context, MaterialPageRoute(builder: (context){return DetailsScreen(
-                img: "assets/images/burger.png",
-                );
+                location: "Ambattur O.T",
+                foodname: "Mutton Biriyani",
+                img: "assets/images/IMG_4916.JPG",
+                cont: "Nowadays, making printed materials have become fast, easy and simple. If you want your promotional material to be an eye-catching object, you should make it colored. By way of using inkjet printer this is not hard to make.",
+              );
               },
               ),
               );
             },
           ),
           ItemCard(
-            svgSrc: "assets/icons/burger_beer.svg",
-            title: "Burger & Beer",
+            svgSrc: "assets/icons/biriyani.svg",
+            title: "Veg Biriyani",
             press: (){
               Navigator.push(context, MaterialPageRoute(builder: (context){return DetailsScreen(
-                img: "assets/images/burger.png",
-                );
+                location: "Ambattur O.T",
+                foodname: "Veg Biriyani",
+                img: "assets/images/IMG_4916.JPG",
+                cont: "Nowadays, making printed materials have become fast, easy and simple. If you want your promotional material to be an eye-catching object, you should make it colored. By way of using inkjet printer this is not hard to make.",
+              );
               },
               ),
               );

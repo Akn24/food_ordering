@@ -61,7 +61,7 @@ class TitlePriceRating extends StatelessWidget {
         width: 65,
         color: kPrimaryColor,
         child: Text(
-          "\$$price",
+          "₹$price",
           style: Theme.of(context)
               .textTheme
               .title

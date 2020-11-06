@@ -26,7 +26,7 @@ class Discount extends StatelessWidget {
               borderRadius: BorderRadius.circular(10),
               image: DecorationImage(
                 fit: BoxFit.fill,
-                image: AssetImage("assets/images/beyond-meat-mcdonalds.png"),
+                image: AssetImage("assets/images/Meal.png"),
               ),
             ),
             child: DecoratedBox(
@@ -44,7 +44,7 @@ class Discount extends StatelessWidget {
                 child: Row(
                   children: <Widget>[
                     Expanded(
-                      child: SvgPicture.asset("assets/icons/macdonalds.svg"),
+                      child: SvgPicture.asset("assets/icons/Arasu_logo.svg"),
                     ),
                     Expanded(
                       child: RichText(
@@ -64,7 +64,7 @@ class Discount extends StatelessWidget {
                             ),
                             TextSpan(
                               text:
-                                  "at MacDonald's on your first order & Instant cashback",
+                                  "at Arasu on your first order & Instant cashback",
                               style: TextStyle(fontSize: 10),
                             ),
                           ],
